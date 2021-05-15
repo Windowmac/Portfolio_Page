@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+
+  :root {
+    --primary: rgba(10, 10, 10, 0);
+  }
+
+  body {
+      background-color: linear-gradient(#F0EAD6, whitesmoke);
+  }
+
+  header {
+    flex: auto;
+    text-align: center;
+    color: var(--primary);
+    margin: auto;
+    margin-bottom: 5%;
+}
