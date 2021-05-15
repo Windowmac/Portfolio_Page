@@ -12,29 +12,30 @@
 <body>
     
     <header>
-        <img src= './assets/Headshot-cropped.jpg' alt='Headshot'></img>
-
-        <nav>
-            <ul><a href='#projects'>Projects</a>
-                <li><a name='#project1'></a><a href='https://github.com/Windowmac/CSS_Cards'>CSS Cards</a></li>
-                <li><a href='#project2'>Project 2</a></li>
-                <li><a href='#project3'>Project 3</a></li>
-            </ul>
-            <p><a href= '#contactInfo'>Contact Info</a></li></p>
-        </nav>
-
+        <img id = 'headshot' src= './assets/Headshot-cropped.jpg' alt='Headshot'></img>
     </header>
+    <nav>
+        <h2>><a href='#projects'>Projects</a></h2>
+        <ul class='popUpMenu'>
+            <li><a href='#project1'>Project 1</a><a href='https://github.com/Windowmac/CSS_Cards'>CSS Cards</a></li>
+            <li><a href='#project2'>Project 2</a></li>
+            <li><a href='#project3'>Project 3</a></li>
+        </ul>
+        <h2><a href= '#contactInfo'>Contact Info</a></li></h2>
+    </nav>    
+
+    
 
     <main><a name='projects'></a>
-        <section><a name='project1'></a>
+        <section class='projectCard'><a name='project1'></a>
             project card
         </section>
 
-        <section><a name='project2'></a>
+        <section class='projectCard'><a name='project2'></a>
             project card
         </section>
 
-        <section><a name='project3'></a>
+        <section class='projectCard'><a name='project3'></a>
             project card
         </section>
     </main>
