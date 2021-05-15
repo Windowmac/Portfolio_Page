@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: linear-gradient(#F0EAD6, whitesmoke);
+  background: linear-gradient(#98e6fd, #7ea3f1);
   margin: 0;
 }
 
@@ -17,28 +17,16 @@ header {
   padding: 40px;
   margin: 10px;
   margin-top: 50px;
+  margin-left: 45px;
   text-align: center;
-  background: #13293d;
+  background: linear-gradient(0.25turn, yellow, #ebf8e1, yellow);
   color: #fff;
-}
-
-
-
-#headshot {
-  position: absolute;
-  top: -45px;
-  left: 10px;
-  height: 218px;
-  width: 209px;
-  padding: 15px;
-  margin: 5px;
 }
 
 nav {
   display: flex;
   justify-content: flex-end;
-  /* width: 100vw; */
-  background: rgb(236, 202, 10);
+  background: linear-gradient(0.5turn, #ebf8e1, yellow, #ebf8e1);
   color: var(--primary);
   padding-right: 78px;
   margin: 2px;
@@ -54,12 +42,15 @@ main {
   flex-wrap: wrap;
 }
 
-section {
-  margin: 20px;
-  margin-top: 30px;
-  padding: 20px;
-  width: 100%;
-  height: 100px;
+#headshot {
+  position: absolute;
+  top: -45px;
+  left: 10px;
+  height: 218px;
+  width: 209px;
+  padding: 15px;
+  margin: 5px;
+  border: 2px solid black;
 }
 
 .popUpMenu {
@@ -67,5 +58,53 @@ section {
 }
 
 .projectCard {
-  
+  display: flex;
+  position: relative;
+  background: linear-gradient(353deg, yellow, #f588c4, #f8fccc);
+  margin: 20px;
+  margin-top: 80px;
+  padding: 20px;
+  width: 100%;
+  height: 100px;
+  border: 5px ridge chartreuse;
+}
+
+.projectCard header {
+  flex: 1;
+  position: absolute;
+  top: -72px;
+  left: 50px;
+  padding: 10px;
+  border: 2px solid rgba(245, 118, 207, 1);
+  background: linear-gradient(rgb(77, 146, 101), rgb(52, 172, 94));
+  width: 199px;
+}
+
+
+.projectPic1 {
+  flex: 1;
+  height: 190px;
+  width: 150px;
+  position: absolute;
+  top: -53px;
+  left: 432px;
+}
+
+.projectPic1 img{
+  height: 190px;
+  width: 150px;
+}
+
+.projectPic2 {
+  flex: 1;
+  height: 190px;
+  width: 150px;
+  position: absolute;
+  top: -53px;
+  right: 133px;
+}
+
+.projectPic2 img {
+  height: 190px;
+  width: 150px;
 }
