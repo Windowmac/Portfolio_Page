@@ -252,4 +252,8 @@ footer:hover {
   nav h2 {
     margin-right: 5px;
   }
+
+  .projectPic2{
+    display:none;
+  }
 }
